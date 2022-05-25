@@ -541,11 +541,15 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .col-desktop {
+    display: none;
+  }
   .intro-desktop {
     display: none;
   }
   .intro-img-mobile {
     display: block;
+    margin-bottom: 3em;
   }
   .intro-mobile {
     color: #1c6182;

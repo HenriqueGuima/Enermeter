@@ -42,14 +42,23 @@ export default function FooterComponent() {
                 <p>- Todos os direitos reservados | Legal</p>
                 <div className="row mt-3">
                   <div className="col-lg-6">
-                    <a href="">
+                    <a
+                      href="https://pt.linkedin.com/company/enermeter"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-linkedin px-2 social-link"></i>
                     </a>
-                    <a href="">
+                    <a
+                      href="https://www.facebook.com/Enermeter"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-facebook px-2 social-link"></i>
                     </a>
-                    <a href="">
-                      <i class="fa-brands fa-instagram px-2 social-link"></i>
+                    <a
+                      href="https://www.youtube.com/user/enermeter"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-youtube px-2 social-link"></i>
                     </a>
                   </div>
                 </div>

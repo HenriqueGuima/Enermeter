@@ -5,8 +5,8 @@ export default function IntroComponent() {
     <>
       <section id="intro">
         <div className="container-fluid">
-          <div className="row mb-2 mt-5 d-flex flex-row justify-content-around">
-            <div className="col-xl-6">
+          <div className="row mb-2 d-flex flex-row justify-content-around">
+            <div className="col-xl-6 col-desktop">
               <div className="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
                   <div className="col-auto d-lg-block">
