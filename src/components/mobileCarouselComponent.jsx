@@ -20,7 +20,7 @@ export default function MobileCarouselComponent() {
       >
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-10.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-10.png"
             width="auto"
             height="140"
           />
@@ -31,7 +31,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-11.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-11.png"
             width="auto"
             height="140"
           />
@@ -41,7 +41,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-12.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-12.png"
             width="auto"
             height="140"
           />
@@ -51,7 +51,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-13.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-13.png"
             width="auto"
             height="140"
           />
@@ -61,7 +61,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-14.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-14.png"
             width="auto"
             height="140"
           />
@@ -71,7 +71,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-15.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-15.png"
             width="auto"
             height="140"
           />
@@ -81,7 +81,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-16.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-16.png"
             width="auto"
             height="140"
           />
@@ -91,7 +91,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-17.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-17.png"
             width="auto"
             height="140"
           />
@@ -101,7 +101,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-18.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-18.png"
             width="auto"
             height="140"
           />
@@ -111,7 +111,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-19.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-19.png"
             width="auto"
             height="140"
           />
@@ -119,7 +119,7 @@ export default function MobileCarouselComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="../assets/images/Site enermeter-20.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-20.png"
             width="auto"
             height="140"
           />

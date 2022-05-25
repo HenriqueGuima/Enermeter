@@ -6,7 +6,7 @@ export default function NavbarComponent() {
       <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
           <img
-            src="../assets/images/logo-resized.png"
+            src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/logo-resized.png"
             width="100"
             height="auto"
             class="d-inline-block align-top"

@@ -21,7 +21,7 @@ export default function FooterComponent() {
               </svg> */}
               <img
                 className="img-fluid max-width-300"
-                src="../assets/images/enermeter-logo.png"
+                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/enermeter-logo.png"
               />
             </div>
             <div className="col-lg-3 mt-5">

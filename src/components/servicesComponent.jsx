@@ -25,7 +25,7 @@ export default function ServicesComponent() {
               </svg> */}
               <img
                 className="img-fluid"
-                src="../assets/images/09-cortado.png"
+                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/09-cortado.png"
                 // width="auto"
                 // height="860"
               />

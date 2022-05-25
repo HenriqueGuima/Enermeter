@@ -26,7 +26,7 @@ export default function AdvantagesComponent() {
                 </text>
               </svg> */}
                 <img
-                  src="../assets/images/Site enermeter-03.png"
+                  src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-03.png"
                   width="auto"
                   height="140"
                 />
@@ -52,7 +52,7 @@ export default function AdvantagesComponent() {
                 </text>
               </svg> */}
                 <img
-                  src="../assets/images/Site enermeter-04.png"
+                  src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-04.png"
                   width="auto"
                   height="140"
                 />
@@ -78,7 +78,7 @@ export default function AdvantagesComponent() {
                 </text>
               </svg> */}
                 <img
-                  src="../assets/images/Site enermeter-05.png"
+                  src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-05.png"
                   width="auto"
                   height="140"
                 />
@@ -104,7 +104,7 @@ export default function AdvantagesComponent() {
                 </text>
               </svg> */}
                 <img
-                  src="../assets/images/Site enermeter-06.png"
+                  src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-06.png"
                   width="auto"
                   height="140"
                 />
@@ -130,7 +130,7 @@ export default function AdvantagesComponent() {
                 </text>
               </svg> */}
                 <img
-                  src="../assets/images/Site enermeter-07.png"
+                  src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-07.png"
                   width="auto"
                   height="140"
                 />
@@ -156,7 +156,7 @@ export default function AdvantagesComponent() {
                 </text>
               </svg> */}
                 <img
-                  src="../assets/images/Site enermeter-08.png"
+                  src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-08.png"
                   width="auto"
                   height="140"
                 />

@@ -93,7 +93,7 @@ export default function BottomComponent() {
                 </svg> */}
 
                 {/* <img
-                src="../assets/images/Site enermeter-21.png"
+                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-21.png"
                 width="auto"
                 height="450"
               /> */}

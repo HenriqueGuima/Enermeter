@@ -24,7 +24,7 @@ export default function ArchitectureComponent() {
               </svg> */}
                 <img
                   className="img-fluid w-75"
-                  src="../assets/images/21-cortado.png"
+                  src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/21-cortado.png"
                   // width="auto"
                   // height="450"
                 />

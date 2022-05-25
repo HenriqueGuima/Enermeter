@@ -24,7 +24,7 @@ export default function IntroComponent() {
                   </svg> */}
                     <img
                       className="img-fluid"
-                      src="../assets/images/Site enermeter-02.png"
+                      src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-02.jpg"
                       // width="auto"
                       // height="450"
                     />
