@@ -412,7 +412,7 @@ a:hover {
 }
 
 #bottom-content {
-  background-color: #e6e6ee;
+  background-color: #e9eaf0;
 }
 
 .swiper-button-next,
@@ -512,4 +512,20 @@ a:hover {
 
 .mb-title-arch {
   margin-bottom: 3em;
+}
+
+.services-desktop {
+  display: block;
+}
+.services-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .services-desktop {
+    display: none;
+  }
+  .services-mobile {
+    display: block;
+  }
 }

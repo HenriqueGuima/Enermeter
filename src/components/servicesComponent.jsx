@@ -24,8 +24,14 @@ export default function ServicesComponent() {
                 <rect width="100%" height="100%" fill="#55595c" />
               </svg> */}
               <img
-                className="img-fluid"
-                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/09-cortado.png"
+                className="img-fluid services-desktop"
+                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/09-cortado.jpg"
+                // width="auto"
+                // height="860"
+              />
+              <img
+                className="img-fluid services-mobile"
+                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/09-mobile.jpg"
                 // width="auto"
                 // height="860"
               />
