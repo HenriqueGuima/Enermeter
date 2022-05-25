@@ -23,7 +23,7 @@ export default function IntroComponent() {
                     <rect width="100%" height="100%" fill="#55595c" />
                   </svg> */}
                     <img
-                      className="img-fluid"
+                      className="img-fluid intro-desktop"
                       src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-02.jpg"
                       // width="auto"
                       // height="450"
@@ -35,7 +35,7 @@ export default function IntroComponent() {
             <div className="col-xl-5">
               <div className="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  <p className="mb-auto p-md-5 intro-p">
+                  <p className="mb-auto p-md-5 intro-p intro-mobile">
                     Garbagere is a Cloud platform whose main objective is to
                     provide waste collection, treatment and recovery entities
                     with a solution that allows them to manage in real time all
@@ -43,7 +43,14 @@ export default function IntroComponent() {
                     and urban cleaning, namely through sensing technologies
                     (IoT).
                   </p>
-                  <p className="mb-auto p-md-5 intro-p">
+
+                  <img
+                    className="img-fluid intro-img-mobile"
+                    src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/Site enermeter-02.jpg"
+                    // width="auto"
+                    // height="450"
+                  />
+                  <p className="mb-auto p-md-5 intro-p intro-mobile">
                     The platform is composed by two systems that complement each
                     other: a Web application and a Android mobile application.
                     The Web application makes it possible to carry out all the

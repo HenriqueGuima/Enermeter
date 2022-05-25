@@ -113,9 +113,9 @@ a:hover {
   color: #1c6182;
 }
 
-.center-video {
+/* .center-video {
   text-align: center;
-}
+} */
 
 .swal-icon--success {
   border-color: #a5dc86;
@@ -482,6 +482,7 @@ a:hover {
 
 .mb-title {
   margin-bottom: 2em;
+  font-size: 1.5rem;
 }
 
 .mail-link {
@@ -528,7 +529,26 @@ a:hover {
   display: none;
 }
 
+.navbar-desktop {
+  display: block;
+}
+.navbar-mobile {
+  display: none !important;
+}
+
+.intro-img-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
+  .intro-img-mobile {
+    display: block;
+  }
+  .intro-mobile {
+    color: #1c6182;
+    font-size: 1.3rem;
+    text-align: left;
+  }
   .services-desktop {
     display: none;
   }
@@ -541,5 +561,12 @@ a:hover {
   }
   .arch-mobile {
     display: block;
+  }
+
+  .navbar-desktop {
+    display: none !important;
+  }
+  .navbar-mobile {
+    display: block !important;
   }
 }

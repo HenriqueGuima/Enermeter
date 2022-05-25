@@ -31,7 +31,7 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage">
+                <p className="mt-5 advantage mb-5">
                   UP TO 30% REDUCTION <br></br>IN OPERATIONAL COSTS
                 </p>
               </div>{" "}
@@ -57,7 +57,7 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage">
+                <p className="mt-5 advantage mb-5">
                   UP TO 20% OPTIMIZATION <br></br>OF PERSONAL ALLOCATED JOBS
                 </p>
               </div>{" "}
@@ -83,7 +83,7 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage">
+                <p className="mt-5 advantage mb-5">
                   ALLOWS YOU TO OBTAIN IMPORTANT <br></br>METRICS FOR MANAGEMENT
                 </p>
               </div>
@@ -109,7 +109,7 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage">
+                <p className="mt-5 advantage mb-5">
                   DIGITALIZATION AND CENTRALIZATION <br></br>OF ALL THE PROCESS
                 </p>
               </div>
@@ -135,7 +135,7 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage">
+                <p className="mt-5 advantage mb-5">
                   SIGNIFICANT REDUCTION OF <br></br>CO2 EMISSIONS
                 </p>
               </div>
@@ -161,7 +161,7 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage">
+                <p className="mt-5 advantage mb-5">
                   INCREASE OF CONSUMER <br></br>SATISFACTION
                 </p>
               </div>

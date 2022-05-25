@@ -4,8 +4,8 @@ export default function ServicesComponent() {
   return (
     <>
       <section id="services">
-        <div className="container-fluid">
-          <div className=" py-5 my-5 text-center">
+        <div className="container-fluid g-0">
+          <div className="g-0 py-5 my-5 text-center">
             <div className="col-md-12">
               {" "}
               <h1 className="fw-bold blue-title mb-title">
@@ -31,7 +31,7 @@ export default function ServicesComponent() {
               />
               <img
                 className="img-fluid services-mobile"
-                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/09-mobile.jpg"
+                src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/09-mobile-cortado.jpg"
                 // width="auto"
                 // height="860"
               />

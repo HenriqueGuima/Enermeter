@@ -5,8 +5,8 @@ export default function HeroComponent() {
   return (
     <>
       <section id="hero">
-        <div className="row">
-          <div className="container-fluid center-video">
+        <div className="row g-0">
+          <div className="container-fluid center-video g-0">
             {/* video placeholder*/}
             {/* <img
                 src="https://www.talent-100.com.au/wordpress/wp-content/uploads/2016/08/video-placeholder.jpg"
