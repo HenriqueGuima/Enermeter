@@ -64,7 +64,7 @@ export default function BottomComponent() {
     <>
       <section id="bottom-content">
         <div className="container-fluid">
-          <div class="px-4 py-5 my-5 text-center">
+          <div class=" py-5 my-5 text-center">
             <div className="row">
               <div className="col-md-12 mx-auto">
                 <h1 class=" fw-bold blue-title mt-5">
@@ -75,7 +75,7 @@ export default function BottomComponent() {
                   playing={true}
                   loop={true}
                   muted={true}
-                  width="65%"
+                  width="100%"
                   height="auto"
                   className="center-video-bottom"
                 />

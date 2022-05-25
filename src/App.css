@@ -521,11 +521,25 @@ a:hover {
   display: none;
 }
 
+.arch-desktop {
+  display: block;
+}
+.arch-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .services-desktop {
     display: none;
   }
   .services-mobile {
+    display: block;
+  }
+
+  .arch-desktop {
+    display: none;
+  }
+  .arch-mobile {
     display: block;
   }
 }
