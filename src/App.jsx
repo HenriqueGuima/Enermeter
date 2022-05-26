@@ -26,7 +26,7 @@ function App() {
       >
         <NavBar />
       </Suspense>
-      <Suspense
+      {/* <Suspense
         fallback={
           <div>
             <img
@@ -40,7 +40,7 @@ function App() {
         }
       >
         <Hero />
-      </Suspense>
+      </Suspense> */}
       <Suspense>
         <Intro />
       </Suspense>

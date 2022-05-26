@@ -72,7 +72,7 @@ export default function BottomComponent() {
                 </h1>
                 <div className="video-mobile">
                   <ReactPlayer
-                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup_fb.mp4"
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup.mp4"
                     playing={true}
                     loop={true}
                     muted={true}
@@ -84,7 +84,7 @@ export default function BottomComponent() {
 
                 <div className="video-desktop">
                   <ReactPlayer
-                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup_fb.mp4"
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup.mp4"
                     playing={true}
                     loop={true}
                     muted={true}
