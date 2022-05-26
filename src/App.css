@@ -113,9 +113,12 @@ a:hover {
   color: #1c6182;
 }
 
-/* .center-video {
-  text-align: center;
-} */
+.center-video {
+  /* text-align: center; */
+  /* margin-inline: auto; */
+
+  text-align: -webkit-center;
+}
 
 .swal-icon--success {
   border-color: #a5dc86;
@@ -328,6 +331,8 @@ a:hover {
   color: white;
   border-radius: 10px;
   padding-inline: 1em;
+  font-size: 0.9rem;
+
   padding-block: 0.5em;
   border: 1px solid #1c6182;
   transition: all 0.5s ease-in-out;
@@ -339,6 +344,7 @@ a:hover {
 }
 
 .c-link {
+  font-size: 0.9rem;
   padding: 0.3em;
 }
 
@@ -348,9 +354,13 @@ a:hover {
   text-align: justify;
 }
 
+.intro-valign {
+  align-items: center;
+}
+
 .advantage {
   color: #1c6182;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
@@ -359,6 +369,7 @@ a:hover {
   font-weight: 700;
   text-transform: uppercase;
   margin: 0px;
+  font-size: 1.5rem;
 }
 
 .white-title {
@@ -386,7 +397,7 @@ a:hover {
 @media screen and (max-width: 425px) {
   .button-width {
     width: 10em !important;
-    margin-top: 2em;
+    /* margin-top: 2em; */
     margin-inline: auto;
     font-weight: 700;
     font-size: 1.3rem !important;
@@ -412,7 +423,7 @@ a:hover {
 }
 
 #bottom-content {
-  background-color: #e9eaf0;
+  background-color: #ffffff;
 }
 
 .swiper-button-next,
@@ -536,11 +547,24 @@ a:hover {
   display: none !important;
 }
 
+.video-desktop {
+  display: block;
+}
+.video-mobile {
+  display: none !important;
+}
+
 .intro-img-mobile {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
+  .video-desktop {
+    display: none;
+  }
+  .video-mobile {
+    display: block !important;
+  }
   .col-desktop {
     display: none;
   }

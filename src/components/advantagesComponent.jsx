@@ -7,7 +7,7 @@ export default function AdvantagesComponent() {
         {" "}
         <div className="px-4 py-5 my-5 text-center">
           <div className="container marketing">
-            <h1 className="fw-bold blue-title mb-title">Advantages</h1>
+            <h1 className="fw-bold blue-title mb-title">Benefits</h1>
             <div className="row">
               <div className="col-lg-4">
                 {/* <svg
@@ -31,8 +31,8 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage mb-5">
-                  UP TO 30% REDUCTION <br></br>IN OPERATIONAL COSTS
+                <p className="mt-3 advantage mb-5">
+                  Up to 30% reduction in <br></br>operational costs
                 </p>
               </div>{" "}
               <div className="col-lg-4">
@@ -57,8 +57,8 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage mb-5">
-                  UP TO 20% OPTIMIZATION <br></br>OF PERSONAL ALLOCATED JOBS
+                <p className="mt-3 advantage mb-5">
+                  Up to 20% optimization <br></br>of personnel
                 </p>
               </div>{" "}
               <div className="col-lg-4">
@@ -83,8 +83,8 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage mb-5">
-                  ALLOWS YOU TO OBTAIN IMPORTANT <br></br>METRICS FOR MANAGEMENT
+                <p className="mt-3 advantage mb-5">
+                  Real-time KPIs <br></br>analysis
                 </p>
               </div>
               <div className="col-lg-4">
@@ -109,8 +109,8 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage mb-5">
-                  DIGITALIZATION AND CENTRALIZATION <br></br>OF ALL THE PROCESS
+                <p className="mt-3 advantage mb-5">
+                  Digitalization and centralization <br></br>of processes
                 </p>
               </div>
               <div className="col-lg-4">
@@ -135,8 +135,8 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage mb-5">
-                  SIGNIFICANT REDUCTION OF <br></br>CO2 EMISSIONS
+                <p className="mt-3 advantage mb-5">
+                  Significant reduction <br></br>of CO2 emissions
                 </p>
               </div>
               <div className="col-lg-4">
@@ -161,8 +161,8 @@ export default function AdvantagesComponent() {
                   height="140"
                 />
 
-                <p className="mt-5 advantage mb-5">
-                  INCREASE OF CONSUMER <br></br>SATISFACTION
+                <p className="mt-3 advantage mb-5">
+                  Improvement of consumer <br></br> satisfaction
                 </p>
               </div>
             </div>

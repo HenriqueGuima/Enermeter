@@ -6,7 +6,8 @@ export default function FooterComponent() {
       <div className="container-fluid">
         <div class="px-4 py-5 my-5 text-center">
           <div className="row">
-            <div className="col-lg-3 mx-auto mt-5">
+            <div className="col-lg-2 mx-auto mt-5"></div>
+            <div className="col-lg-2 mx-auto mt-5">
               {/* <svg
                 className="bd-placeholder-img"
                 width="250"
@@ -24,7 +25,7 @@ export default function FooterComponent() {
                 src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/enermeter-logo.png"
               />
             </div>
-            <div className="col-lg-3 mt-5">
+            <div className="col-lg-2 mt-5">
               <div className="col p-4 d-flex flex-column position-static contacts">
                 <span>Contacts</span>
                 <p>Travessa dos prados nº12</p>
@@ -36,7 +37,7 @@ export default function FooterComponent() {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 mx-auto mt-5">
+            <div className="col-lg-3 mx-auto mt-5">
               <div className="col p-4 d-flex flex-column position-static contacts">
                 <p> &#169; 2022 Enermeter</p>
                 <p>- Todos os direitos reservados | Legal</p>
@@ -64,6 +65,7 @@ export default function FooterComponent() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-2 mx-auto mt-5"></div>
           </div>
         </div>
       </div>

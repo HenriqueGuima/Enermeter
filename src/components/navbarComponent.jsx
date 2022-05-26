@@ -34,27 +34,27 @@ export default function NavbarComponent() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <a class="nav-item nav-link px-xl-5" href="#advantages">
+              <a class="nav-item nav-link px-xl-4" href="#advantages">
                 <div className="c-link">Advantages</div>
               </a>
             </NavItem>
             <NavItem>
-              <a class="nav-item nav-link px-xl-5" href="#services">
+              <a class="nav-item nav-link px-xl-4" href="#services">
                 <div className="c-link">Supported services</div>
               </a>
             </NavItem>
             <NavItem>
-              <a class="nav-item nav-link px-xl-5" href="#functionalities">
+              <a class="nav-item nav-link px-xl-4" href="#functionalities">
                 <div className="c-link">functionalities</div>
               </a>
             </NavItem>
             <NavItem>
-              <a class="nav-item nav-link px-xl-5" href="#architecture">
+              <a class="nav-item nav-link px-xl-4" href="#architecture">
                 <div className="c-link">architecture</div>
               </a>
             </NavItem>
             <NavItem>
-              <a class="nav-item nav-link px-xl-5" href="#bottom-content">
+              <a class="nav-item nav-link px-xl-4" href="#bottom-content">
                 <div className="request">request a demo</div>
               </a>
             </NavItem>
@@ -83,19 +83,19 @@ export default function NavbarComponent() {
             id="navbarCollapse"
           >
             <div class="navbar-nav py-5">
-              <a class="nav-item nav-link px-xl-5" href="#advantages">
+              <a class="nav-item nav-link px-xl-4" href="#advantages">
                 <div className="c-link">Advantages</div>
               </a>
-              <a class="nav-item nav-link px-xl-5" href="#services">
+              <a class="nav-item nav-link px-xl-4" href="#services">
                 <div className="c-link">Supported services</div>
               </a>
-              <a class="nav-item nav-link px-xl-5" href="#functionalities">
+              <a class="nav-item nav-link px-xl-4" href="#functionalities">
                 <div className="c-link">functionalities</div>
               </a>
-              <a class="nav-item nav-link px-xl-5" href="#architecture">
+              <a class="nav-item nav-link px-xl-4" href="#architecture">
                 <div className="c-link">architecture</div>
               </a>
-              <a class="nav-item nav-link px-xl-5" href="#bottom-content">
+              <a class="nav-item nav-link px-xl-4" href="#bottom-content">
                 <div className="request">request a demo</div>
               </a>
             </div>

@@ -70,15 +70,29 @@ export default function BottomComponent() {
                 <h1 class=" fw-bold blue-title mt-5">
                   Transforming waste industry
                 </h1>
-                <ReactPlayer
-                  url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup.mp4"
-                  playing={true}
-                  loop={true}
-                  muted={true}
-                  width="100%"
-                  height="auto"
-                  className="center-video-bottom"
-                />
+                <div className="video-mobile">
+                  <ReactPlayer
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup_fb.mp4"
+                    playing={true}
+                    loop={true}
+                    muted={true}
+                    width="100%"
+                    height="auto"
+                    className="center-video-bottom"
+                  />
+                </div>
+
+                <div className="video-desktop">
+                  <ReactPlayer
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup_fb.mp4"
+                    playing={true}
+                    loop={true}
+                    muted={true}
+                    width="60%"
+                    height="auto"
+                    className="center-video-bottom"
+                  />
+                </div>
                 {/* <svg
                   className="bd-placeholder-img"
                   width="auto"
@@ -105,7 +119,7 @@ export default function BottomComponent() {
                     type="button"
                     class="request"
                   >
-                    Request Demo
+                    Request a Demo
                   </div>
                   <Modal
                     isOpen={modal}

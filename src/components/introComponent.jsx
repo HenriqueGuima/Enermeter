@@ -5,7 +5,7 @@ export default function IntroComponent() {
     <>
       <section id="intro">
         <div className="container-fluid">
-          <div className="row mb-2 d-flex flex-row justify-content-around">
+          <div className="row mb-2 d-flex flex-row justify-content-around align-items-center">
             <div className="col-xl-6 col-desktop">
               <div className="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
@@ -33,16 +33,16 @@ export default function IntroComponent() {
               </div>
             </div>
             <div className="col-xl-5">
-              <div className="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
-                <div className="col p-4 d-flex flex-column position-static">
-                  <p className="mb-auto p-md-5 intro-p intro-mobile">
+              <div className="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative align-items-center">
+                <div className="col d-flex flex-column position-static intro-valign">
+                  {/* <p className="mb-auto py-md-3 intro-p intro-mobile">
                     Garbagere is a Cloud platform whose main objective is to
                     provide waste collection, treatment and recovery entities
                     with a solution that allows them to manage in real time all
                     assets related to waste collection and treatment operations
                     and urban cleaning, namely through sensing technologies
                     (IoT).
-                  </p>
+                  </p> */}
 
                   <img
                     className="img-fluid intro-img-mobile"
@@ -50,15 +50,25 @@ export default function IntroComponent() {
                     // width="auto"
                     // height="450"
                   />
-                  <p className="mb-auto p-md-5 intro-p intro-mobile">
-                    The platform is composed by two systems that complement each
+                  <p className="mb-auto py-md-3 intro-p intro-mobile">
+                    {/* The platform is composed by two systems that complement each
                     other: a Web application and a Android mobile application.
                     The Web application makes it possible to carry out all the
                     planning and management of operations, being particularly
                     useful for back-office users. The Android mobile application
                     is designed to help with tasks usually performed outside of
                     the office environment that require the intervention of
-                    specialized teams in the field
+                    specialized teams in the field */}
+                    Garbagere is a cloud platform that aims to provide a
+                    real-time management and monitoring solution to waste
+                    utilities which handle collection, processing, treatment and
+                    recovery. The platform is based on two systems that
+                    complement each other: <br></br>
+                    <br></br>• A Web application making possible to carry out
+                    all the planning and management of operations, targeted for
+                    back-office users. <br></br>
+                    <br></br>• An Android mobile application designed to help
+                    with tasks performed in the field.
                   </p>
                 </div>
               </div>
