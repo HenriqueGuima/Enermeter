@@ -66,7 +66,7 @@ export default function BottomComponent() {
         <div className="container-fluid">
           <div class=" py-5 my-5 text-center">
             <div className="row">
-              <div className="col-md-12 mx-auto">
+              <div className="col-md-12 mx-auto g-0">
                 {/* <div id="tv_container">
                   <ReactPlayer
                     url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Sequence+01.mp4"
