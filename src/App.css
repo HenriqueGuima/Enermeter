@@ -415,7 +415,7 @@ a:hover {
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: uppercase;
-  bottom: 0;
+  bottom: 3em;
 }
 
 .button-width-mobile {
@@ -428,21 +428,21 @@ a:hover {
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: uppercase;
-  bottom: -3em;
+  bottom: 3em;
 }
 
 .absolute-title {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 2em;
+  top: 3em;
 }
 
 .absolute-title-mobile {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: -4em;
+  top: 2.7em;
 }
 
 #services {
