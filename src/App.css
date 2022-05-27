@@ -418,11 +418,31 @@ a:hover {
   bottom: 0;
 }
 
+.button-width-mobile {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10em;
+  margin-top: 2em;
+  margin-inline: auto;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  bottom: -3em;
+}
+
 .absolute-title {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   top: 2em;
+}
+
+.absolute-title-mobile {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: -4em;
 }
 
 #services {
@@ -563,6 +583,7 @@ a:hover {
   display: block;
 }
 .video-mobile {
+  position: relative;
   display: none !important;
 }
 

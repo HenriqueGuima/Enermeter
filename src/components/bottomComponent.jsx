@@ -93,6 +93,9 @@ export default function BottomComponent() {
                 </div> */}
 
                 <div className="video-mobile">
+                  <h1 class=" fw-bold blue-title mt-5 mb-5 absolute-title-mobile">
+                    Transforming waste industry
+                  </h1>
                   <ReactPlayer
                     url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup.mp4"
                     playing={true}
@@ -102,6 +105,67 @@ export default function BottomComponent() {
                     height="auto"
                     className="center-video-bottom"
                   />
+                  <div className="button-width-mobile">
+                    <div
+                      color="primary"
+                      onClick={toggle}
+                      type="button"
+                      class="request"
+                    >
+                      Request a Demo
+                    </div>
+                    <Modal
+                      isOpen={modal}
+                      toggle={toggle}
+                      modalTransition={{ timeout: 500 }}
+                    >
+                      <ModalBody>
+                        {" "}
+                        <div className="form-group">
+                          <form
+                            ref={form}
+                            onSubmit={sendEmail}
+                            className="form"
+                          >
+                            <label className="label">First Name</label>
+                            <input
+                              type="text"
+                              name="user_fname"
+                              className="form-control"
+                              required
+                            />
+                            <label className="label">Last Name</label>
+                            <input
+                              type="text"
+                              name="user_lname"
+                              className="form-control"
+                              required
+                            />
+                            <label className="label">Job Title</label>
+                            <input
+                              type="text"
+                              name="user_job"
+                              className="form-control"
+                              required
+                            />
+                            <label className="label">Email</label>
+                            <input
+                              type="email"
+                              name="user_email"
+                              className="form-control"
+                              required
+                            />
+                            <input
+                              type="submit"
+                              value="Send"
+                              class="btn btn-primary"
+                              onClick={toggle}
+                            />
+                          </form>
+                        </div>
+                      </ModalBody>
+                    </Modal>
+                  </div>
                 </div>
 
                 <div className="video-desktop">
