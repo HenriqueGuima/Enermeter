@@ -423,7 +423,7 @@ a:hover {
 }
 
 #bottom-content {
-  background-color: #eaeaea;
+  background-color: rgb(230, 230, 238);
 }
 
 .swiper-button-next,
@@ -600,4 +600,22 @@ a:hover {
   .navbar-mobile {
     display: block !important;
   }
+}
+
+#tv_container {
+  background: url(https://imagens-enermeter.s3.eu-west-3.amazonaws.com/laptop.png)
+    no-repeat top left transparent;
+  width: auto;
+  height: 400px;
+  background-size: contain;
+  position: relative;
+  z-index: 2;
+  margin-inline: 32%;
+}
+#tv_container video {
+  position: relative;
+  top: 11px;
+  left: -83px;
+  width: 35.5em !important;
+  z-index: 0;
 }

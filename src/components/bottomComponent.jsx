@@ -67,9 +67,34 @@ export default function BottomComponent() {
           <div class=" py-5 my-5 text-center">
             <div className="row">
               <div className="col-md-12 mx-auto">
-                <h1 class=" fw-bold blue-title mt-5">
+                <h1 class=" fw-bold blue-title mt-5 mb-5">
                   Transforming waste industry
                 </h1>
+                {/* <div id="tv_container">
+                  <ReactPlayer
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Sequence+01.mp4"
+                    playing={true}
+                    loop={true}
+                    muted={true}
+                    width="60%"
+                    height="auto"
+                    className="center-video-bottom"
+                  />
+                </div> */}
+                {/* <div>
+                  {" "}
+                  <ReactPlayer
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Sequence+01.mp4"
+                    playing={true}
+                    loop={true}
+                    muted={true}
+                    width="60%"
+                    height="auto"
+                    className="center-video-bottom"
+                  />{" "}
+                  <img src="https://imagens-enermeter.s3.eu-west-3.amazonaws.com/laptop.png" />
+                </div> */}
+
                 <div className="video-mobile">
                   <ReactPlayer
                     url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup.mp4"
