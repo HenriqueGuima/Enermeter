@@ -67,9 +67,6 @@ export default function BottomComponent() {
           <div class=" py-5 my-5 text-center">
             <div className="row">
               <div className="col-md-12 mx-auto">
-                <h1 class=" fw-bold blue-title mt-5 mb-5">
-                  Transforming waste industry
-                </h1>
                 {/* <div id="tv_container">
                   <ReactPlayer
                     url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Sequence+01.mp4"
@@ -108,15 +105,79 @@ export default function BottomComponent() {
                 </div>
 
                 <div className="video-desktop">
+                  <h1 class=" fw-bold blue-title mt-5 mb-5 absolute-title">
+                    Transforming waste industry
+                  </h1>
                   <ReactPlayer
                     url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup.mp4"
                     playing={true}
                     loop={true}
                     muted={true}
-                    width="60%"
+                    width="100%"
                     height="auto"
                     className="center-video-bottom"
                   />
+                  <div className="button-width">
+                    <div
+                      color="primary"
+                      onClick={toggle}
+                      type="button"
+                      class="request"
+                    >
+                      Request a Demo
+                    </div>
+                    <Modal
+                      isOpen={modal}
+                      toggle={toggle}
+                      modalTransition={{ timeout: 500 }}
+                    >
+                      <ModalBody>
+                        {" "}
+                        <div className="form-group">
+                          <form
+                            ref={form}
+                            onSubmit={sendEmail}
+                            className="form"
+                          >
+                            <label className="label">First Name</label>
+                            <input
+                              type="text"
+                              name="user_fname"
+                              className="form-control"
+                              required
+                            />
+                            <label className="label">Last Name</label>
+                            <input
+                              type="text"
+                              name="user_lname"
+                              className="form-control"
+                              required
+                            />
+                            <label className="label">Job Title</label>
+                            <input
+                              type="text"
+                              name="user_job"
+                              className="form-control"
+                              required
+                            />
+                            <label className="label">Email</label>
+                            <input
+                              type="email"
+                              name="user_email"
+                              className="form-control"
+                              required
+                            />
+                            <input
+                              type="submit"
+                              value="Send"
+                              class="btn btn-primary"
+                              onClick={toggle}
+                            />
+                          </form>
+                        </div>
+                      </ModalBody>
+                    </Modal>
+                  </div>
                 </div>
                 {/* <svg
                   className="bd-placeholder-img"
@@ -136,64 +197,6 @@ export default function BottomComponent() {
                 width="auto"
                 height="450"
               /> */}
-
-                <div className="button-width">
-                  <div
-                    color="primary"
-                    onClick={toggle}
-                    type="button"
-                    class="request"
-                  >
-                    Request a Demo
-                  </div>
-                  <Modal
-                    isOpen={modal}
-                    toggle={toggle}
-                    modalTransition={{ timeout: 500 }}
-                  >
-                    <ModalBody>
-                      {" "}
-                      <div className="form-group">
-                        <form ref={form} onSubmit={sendEmail} className="form">
-                          <label className="label">First Name</label>
-                          <input
-                            type="text"
-                            name="user_fname"
-                            className="form-control"
-                            required
-                          />
-                          <label className="label">Last Name</label>
-                          <input
-                            type="text"
-                            name="user_lname"
-                            className="form-control"
-                            required
-                          />
-                          <label className="label">Job Title</label>
-                          <input
-                            type="text"
-                            name="user_job"
-                            className="form-control"
-                            required
-                          />
-                          <label className="label">Email</label>
-                          <input
-                            type="email"
-                            name="user_email"
-                            className="form-control"
-                            required
-                          />
-                          <input
-                            type="submit"
-                            value="Send"
-                            class="btn btn-primary"
-                            onClick={toggle}
-                          />
-                        </form>
-                      </div>
-                    </ModalBody>
-                  </Modal>
-                </div>
               </div>
             </div>
           </div>

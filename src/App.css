@@ -406,12 +406,23 @@ a:hover {
 }
 
 .button-width {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 15em;
   margin-top: 2em;
   margin-inline: auto;
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: uppercase;
+  bottom: 0;
+}
+
+.absolute-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 2em;
 }
 
 #services {
@@ -422,9 +433,9 @@ a:hover {
   background-color: #1c6182;
 }
 
-#bottom-content {
+/* #bottom-content {
   background-color: rgb(230, 230, 238);
-}
+} */
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -548,6 +559,7 @@ a:hover {
 }
 
 .video-desktop {
+  position: relative;
   display: block;
 }
 .video-mobile {
