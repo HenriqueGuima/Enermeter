@@ -1,6 +1,7 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { lazy, Suspense } from "react";
+import BackToTopComponent from "./components/backtoTopComponent";
 
 const NavBar = lazy(() => import("./components/navbarComponent"));
 const Hero = lazy(() => import("./components/heroComponent"));
@@ -17,6 +18,7 @@ const Footer = lazy(() => import("./components/footerComponent"));
 function App() {
   return (
     <>
+      <BackToTopComponent />
       <Suspense
         fallback={
           <div>
