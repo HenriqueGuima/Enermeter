@@ -428,7 +428,7 @@ a:hover {
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: uppercase;
-  bottom: 3em;
+  bottom: 1em;
 }
 
 .absolute-title {
@@ -442,7 +442,7 @@ a:hover {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 2.7em;
+  top: 0.7em;
 }
 
 #services {

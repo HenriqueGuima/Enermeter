@@ -6,7 +6,7 @@ export default function FunctionalitiesComponent() {
   return (
     <>
       <section id="functionalities">
-        <div className="px-4 py-5 my-5 text-center">
+        <div className="px-4 py-5 my-md-5 text-center">
           <div className="container marketing">
             <h1 className=" fw-bold white-title mb-title ">Functionalities</h1>
             <div className="row mt-5">

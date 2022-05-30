@@ -5,7 +5,7 @@ export default function ArchitectureComponent() {
     <>
       <section id="architecture">
         <div className="container-fluid">
-          <div class="px-4 py-5 my-5 text-center">
+          <div class="px-4 py-md-2 text-center">
             <div className="row">
               <div className="col-md-12 mx-auto mt-5">
                 {" "}

@@ -97,7 +97,7 @@ export default function BottomComponent() {
                     Transforming waste industry
                   </h1>
                   <ReactPlayer
-                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup+vertical.mp4"
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/MockupVertical.mp4"
                     playing={true}
                     loop={true}
                     muted={true}
@@ -173,7 +173,7 @@ export default function BottomComponent() {
                     Transforming waste industry
                   </h1>
                   <ReactPlayer
-                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/Enermeter_Mockup_fc.mp4"
+                    url="https://videos-garbagere.s3.eu-west-3.amazonaws.com/MockupHortizontal.mp4"
                     playing={true}
                     loop={true}
                     muted={true}

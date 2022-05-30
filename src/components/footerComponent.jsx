@@ -4,7 +4,7 @@ export default function FooterComponent() {
   return (
     <>
       <div className="container-fluid">
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-4 py-md-5 my-md-5 text-center">
           <div className="row">
             <div className="col-lg-2 mx-auto mt-5"></div>
             <div className="col-lg-2 mx-auto mt-5">
